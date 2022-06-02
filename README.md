@@ -9,7 +9,8 @@ JavaScript
 
 ## Frameworks
 
-React Native\Expo
+React Native\
+Expo
 
 ## APIs
 
