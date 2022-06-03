@@ -1,12 +1,12 @@
 import { 
-    StyleSheet, 
-    Text, 
+    StyleSheet,
     View, 
     SafeAreaView,
     Image
 } from 'react-native';
 import tw from 'tailwind-react-native-classnames';
-import NavOptions from '../../components/NavOptions';
+import NavOptions from '../components/NavOptions';
+import NavFavorites from '../components/NavFavorites';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { GOOGLE_MAPS_API_KEY } from "@env";
 import { useDispatch } from 'react-redux';
@@ -45,7 +45,7 @@ export default function HomeScreen() {
                 }}
                 fetchDetails={true}
                 enablePoweredByContainer={false}
-                returnKeyType={"search"}
+                returnKeyType="search"
                 minLength={2}
                 nearbyPlacesAPI='GooglePlacesSearch'
                 debounce={400}
@@ -55,6 +55,7 @@ export default function HomeScreen() {
                 }}
             />
             <NavOptions/>
+            <NavFavorites/>
         </View>
     </SafeAreaView>
   );
