@@ -16,7 +16,7 @@ const data = [
     {
         id: "123",
         title: "Get a Ride",
-        image: require("../assets/images/ride-image.png"),
+        image: require("../assets/images/uber-x.png"),
         screen: "MapScreen"
     },
     {
