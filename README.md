@@ -7,7 +7,7 @@ https://user-images.githubusercontent.com/90805644/172059200-7a73f174-2fd4-43bb-
 
 ## Languages
 
-JavaScript
+JavaScript, TailwindCSS
 
 ## Frameworks
 
