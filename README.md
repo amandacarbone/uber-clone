@@ -20,6 +20,3 @@ Expo
 Google Directions\
 Google Places\
 Google Distance Matrix
-
-## Contributors
-[Amanda Carbone]('https://github.com/amandacarbone')
